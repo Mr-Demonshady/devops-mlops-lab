@@ -13,3 +13,5 @@ mlruns/
 
 # DVC cache
 .dvc/cache/
+
+.env
