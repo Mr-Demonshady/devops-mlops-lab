@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  trainer:
+    build: .
+    container_name: devops-mlops-trainer
+    volumes:
+      - ./:/app
+    command: python train.py
